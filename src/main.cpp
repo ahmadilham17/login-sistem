@@ -55,7 +55,7 @@ void viewDaftar() {
     fileAkun.write(reinterpret_cast<char*>(&akun),sizeof(Akun));
 
     cout << "Akun Berhasil daftar" << endl;
-
+    
     fileAkun.close();
 }
 
